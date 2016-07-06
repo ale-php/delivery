@@ -1,0 +1,25 @@
+{
+  "name": "angular-issue-9128-patch",
+  "version": "0.0.3",
+  "authors": [
+    "Jeff Hunken <jhunken@gmail.com>"
+  ],
+  "description": "Decorator patch to fix #9128",
+  "main": "angular-issue-9128-patch.js",
+  "keywords": [
+    "angular",
+    "9128",
+    "issue",
+    "patch",
+    "readonly"
+  ],
+  "license": "MIT",
+  "homepage": "https://gist.github.com/beckyconning/9fe5450046cabfa5d104",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

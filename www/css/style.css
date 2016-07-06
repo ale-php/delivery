@@ -1,0 +1,1882 @@
+.timePickerColon {
+  padding-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.timePickerArrows {
+  width: 100%;
+}
+
+.timePickerBoxText {
+  text-align: center;
+  border: 1px solid #dddddd !important;
+}
+
+.bar.bar-stable, .tabs {
+  box-shadow: 0 0 5px #555;
+}
+
+.overflowShow {
+  white-space: normal !important;
+}
+
+.tabicon1{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/1.png');
+background-size:contain;
+}
+.tabicon2{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/2.png');
+background-size:contain;
+}
+.tabicon3{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/3.png');
+background-size:contain;
+}
+.tabicon4{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/4.png');
+background-size:contain;
+}
+.tabicon5{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/5.png');
+background-size:contain;
+}
+.tabicon6{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/6.png');
+background-size:contain;
+}
+.tabicon7{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/7.png');
+background-size:contain;
+}
+.tabicon8{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/8.png');
+background-size:contain;
+}
+.tabicon9{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/9.png');
+background-size:contain;
+}
+.tabicon10{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/10.png');
+background-size:contain;
+}
+.tabicon11{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/11.png');
+background-size:contain;
+}
+.tabicon12{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/12.png');
+background-size:contain;
+}
+.tabicon13{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/13.png');
+background-size:contain;
+}
+.tabicon14{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/14.png');
+background-size:contain;
+}
+.tabicon15{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/15.png');
+background-size:contain;
+}
+.tabicon16{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/16.png');
+background-size:contain;
+}
+.tabicon17{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/17.png');
+background-size:contain;
+}
+.tabicon18{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/18.png');
+background-size:contain;
+}
+.tabicon19{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/19.png');
+background-size:contain;
+}
+.tabicon20{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/20.png');
+background-size:contain;
+}
+.tabicon21{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/21.png');
+background-size:contain;
+}
+.tabicon22{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/22.png');
+background-size:contain;
+}
+.tabicon23{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/23.png');
+background-size:contain;
+}
+.tabicon24{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/24.png');
+background-size:contain;
+}
+.tabicon25{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/25.png');
+background-size:contain;
+}
+.tabicon26{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/26.png');
+background-size:contain;
+}
+.tabicon27{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/27.png');
+background-size:contain;
+}
+.tabicon28{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/28.png');
+background-size:contain;
+}
+.tabicon29{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/29.png');
+background-size:contain;
+}
+.tabicon30{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/30.png');
+background-size:contain;
+}
+.tabicon31{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/31.png');
+background-size:contain;
+}
+.tabicon32{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/32.png');
+background-size:contain;
+}
+.tabicon33{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/33.png');
+background-size:contain;
+}
+.tabicon34{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/34.png');
+background-size:contain;
+}
+.tabicon35{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/35.png');
+background-size:contain;
+}
+.tabicon36{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/36.png');
+background-size:contain;
+}
+.tabicon37{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/37.png');
+background-size:contain;
+}
+.tabicon38{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/38.png');
+background-size:contain;
+}
+.tabicon39{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/39.png');
+background-size:contain;
+}
+.tabicon40{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/40.png');
+background-size:contain;
+}
+.tabicon41{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/41.png');
+background-size:contain;
+}
+.tabicon42{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/42.png');
+background-size:contain;
+}
+.tabicon43{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/43.png');
+background-size:contain;
+}
+.tabicon44{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/44.png');
+background-size:contain;
+}
+.tabicon45{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/45.png');
+background-size:contain;
+}
+.tabicon46{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/46.png');
+background-size:contain;
+}
+.tabicon47{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/47.png');
+background-size:contain;
+}
+.tabicon48{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/48.png');
+background-size:contain;
+}
+.tabicon49{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/49.png');
+background-size:contain;
+}
+.tabicon50{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/50.png');
+background-size:contain;
+}
+.tabicon51{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/51.png');
+background-size:contain;
+}
+.tabicon52{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/52.png');
+background-size:contain;
+}
+.tabicon53{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/53.png');
+background-size:contain;
+}
+.tabicon54{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/54.png');
+background-size:contain;
+}
+.tabicon55{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/55.png');
+background-size:contain;
+}
+.tabicon56{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/56.png');
+background-size:contain;
+}
+.tabicon57{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/57.png');
+background-size:contain;
+}
+.tabicon58{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/58.png');
+background-size:contain;
+}
+.tabicon59{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/59.png');
+background-size:contain;
+}
+.tabicon60{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/60.png');
+background-size:contain;
+}
+.tabicon61{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/61.png');
+background-size:contain;
+}
+.tabicon62{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/62.png');
+background-size:contain;
+}
+.tabicon63{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/63.png');
+background-size:contain;
+}
+.tabicon64{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/64.png');
+background-size:contain;
+}
+.tabicon65{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/65.png');
+background-size:contain;
+}
+.tabicon66{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/66.png');
+background-size:contain;
+}
+.tabicon67{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/67.png');
+background-size:contain;
+}
+.tabicon68{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/68.png');
+background-size:contain;
+}
+.tabicon69{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/69.png');
+background-size:contain;
+}
+.tabicon70{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/70.png');
+background-size:contain;
+}
+.tabicon71{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/71.png');
+background-size:contain;
+}
+.tabicon72{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/72.png');
+background-size:contain;
+}
+.tabicon73{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/73.png');
+background-size:contain;
+}
+.tabicon74{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/74.png');
+background-size:contain;
+}
+.tabicon75{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/75.png');
+background-size:contain;
+}
+.tabicon76{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/76.png');
+background-size:contain;
+}
+.tabicon77{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/77.png');
+background-size:contain;
+}
+.tabicon78{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/78.png');
+background-size:contain;
+}
+.tabicon79{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/79.png');
+background-size:contain;
+}
+.tabicon80{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/80.png');
+background-size:contain;
+}
+.tabicon81{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/81.png');
+background-size:contain;
+}
+.tabicon82{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/82.png');
+background-size:contain;
+}
+.tabicon83{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/83.png');
+background-size:contain;
+}
+.tabicon84{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/84.png');
+background-size:contain;
+}
+.tabicon85{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/85.png');
+background-size:contain;
+}
+.tabicon86{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/86.png');
+background-size:contain;
+}
+.tabicon87{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/87.png');
+background-size:contain;
+}
+.tabicon88{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/88.png');
+background-size:contain;
+}
+.tabicon89{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/89.png');
+background-size:contain;
+}
+.tabicon90{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/90.png');
+background-size:contain;
+}
+.tabicon91{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/91.png');
+background-size:contain;
+}
+.tabicon92{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/92.png');
+background-size:contain;
+}
+.tabicon93{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/93.png');
+background-size:contain;
+}
+.tabicon94{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/94.png');
+background-size:contain;
+}
+.tabicon95{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/95.png');
+background-size:contain;
+}
+.tabicon96{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/96.png');
+background-size:contain;
+}
+.tabicon97{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/97.png');
+background-size:contain;
+}
+.tabicon98{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/98.png');
+background-size:contain;
+}
+.tabicon99{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/99.png');
+background-size:contain;
+}
+.tabicon100{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/100.png');
+background-size:contain;
+}
+.tabicon101{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/101.png');
+background-size:contain;
+}
+.tabicon102{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/102.png');
+background-size:contain;
+}
+.tabicon103{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/103.png');
+background-size:contain;
+}
+.tabicon104{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/104.png');
+background-size:contain;
+}
+.tabicon105{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/105.png');
+background-size:contain;
+}
+.tabicon106{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/106.png');
+background-size:contain;
+}
+.tabicon107{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/107.png');
+background-size:contain;
+}
+.tabicon108{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/108.png');
+background-size:contain;
+}
+.tabicon109{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/109.png');
+background-size:contain;
+}
+.tabicon110{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/110.png');
+background-size:contain;
+}
+.tabicon111{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/111.png');
+background-size:contain;
+}
+.tabicon112{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/112.png');
+background-size:contain;
+}
+.tabicon113{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/113.png');
+background-size:contain;
+}
+.tabicon114{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/114.png');
+background-size:contain;
+}
+.tabicon115{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/115.png');
+background-size:contain;
+}
+.tabicon116{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/116.png');
+background-size:contain;
+}
+.tabicon117{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/117.png');
+background-size:contain;
+}
+.tabicon118{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/118.png');
+background-size:contain;
+}
+.tabicon119{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/119.png');
+background-size:contain;
+}
+.tabicon120{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/120.png');
+background-size:contain;
+}
+.tabicon121{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/121.png');
+background-size:contain;
+}
+.tabicon122{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/122.png');
+background-size:contain;
+}
+.tabicon123{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/123.png');
+background-size:contain;
+}
+.tabicon124{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/124.png');
+background-size:contain;
+}
+.tabicon125{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/125.png');
+background-size:contain;
+}
+.tabicon126{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/126.png');
+background-size:contain;
+}
+.tabicon127{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/127.png');
+background-size:contain;
+}
+.tabicon128{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/128.png');
+background-size:contain;
+}
+.tabicon129{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/129.png');
+background-size:contain;
+}
+.tabicon130{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/130.png');
+background-size:contain;
+}
+.tabicon131{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/131.png');
+background-size:contain;
+}
+.tabicon132{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/132.png');
+background-size:contain;
+}
+.tabicon133{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/133.png');
+background-size:contain;
+}
+.tabicon134{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/134.png');
+background-size:contain;
+}
+.tabicon135{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/135.png');
+background-size:contain;
+}
+.tabicon136{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/136.png');
+background-size:contain;
+}
+.tabicon137{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/137.png');
+background-size:contain;
+}
+.tabicon138{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/138.png');
+background-size:contain;
+}
+.tabicon139{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/139.png');
+background-size:contain;
+}
+.tabicon140{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/140.png');
+background-size:contain;
+}
+.tabicon141{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/141.png');
+background-size:contain;
+}
+.tabicon142{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/142.png');
+background-size:contain;
+}
+.tabicon143{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/143.png');
+background-size:contain;
+}
+.tabicon144{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/144.png');
+background-size:contain;
+}
+.tabicon145{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/145.png');
+background-size:contain;
+}
+.tabicon146{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/146.png');
+background-size:contain;
+}
+.tabicon147{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/147.png');
+background-size:contain;
+}
+.tabicon148{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/148.png');
+background-size:contain;
+}
+.tabicon149{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/149.png');
+background-size:contain;
+}
+.tabicon150{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/150.png');
+background-size:contain;
+}
+.tabicon151{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/151.png');
+background-size:contain;
+}
+.tabicon152{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/152.png');
+background-size:contain;
+}
+.tabicon153{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/153.png');
+background-size:contain;
+}
+.tabicon154{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/154.png');
+background-size:contain;
+}
+.tabicon155{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/155.png');
+background-size:contain;
+}
+.tabicon156{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/156.png');
+background-size:contain;
+}
+.tabicon157{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/157.png');
+background-size:contain;
+}
+.tabicon158{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/158.png');
+background-size:contain;
+}
+.tabicon159{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/159.png');
+background-size:contain;
+}
+.tabicon160{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/160.png');
+background-size:contain;
+}
+.tabicon161{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/161.png');
+background-size:contain;
+}
+.tabicon162{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/162.png');
+background-size:contain;
+}
+.tabicon163{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/163.png');
+background-size:contain;
+}
+.tabicon164{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/164.png');
+background-size:contain;
+}
+.tabicon165{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/165.png');
+background-size:contain;
+}
+.tabicon166{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/166.png');
+background-size:contain;
+}
+.tabicon167{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/167.png');
+background-size:contain;
+}
+.tabicon168{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/168.png');
+background-size:contain;
+}
+.tabicon169{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/169.png');
+background-size:contain;
+}
+.tabicon170{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/170.png');
+background-size:contain;
+}
+.tabicon171{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/171.png');
+background-size:contain;
+}
+.tabicon172{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/172.png');
+background-size:contain;
+}
+.tabicon173{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/173.png');
+background-size:contain;
+}
+.tabicon174{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/174.png');
+background-size:contain;
+}
+.tabicon175{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/175.png');
+background-size:contain;
+}
+.tabicon176{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/176.png');
+background-size:contain;
+}
+.tabicon177{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/177.png');
+background-size:contain;
+}
+.tabicon178{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/178.png');
+background-size:contain;
+}
+.tabicon179{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/179.png');
+background-size:contain;
+}
+.tabicon180{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/180.png');
+background-size:contain;
+}
+.tabicon181{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/181.png');
+background-size:contain;
+}
+.tabicon182{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/182.png');
+background-size:contain;
+}
+.tabicon183{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/183.png');
+background-size:contain;
+}
+.tabicon184{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/184.png');
+background-size:contain;
+}
+.tabicon185{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/185.png');
+background-size:contain;
+}
+.tabicon186{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/186.png');
+background-size:contain;
+}
+.tabicon187{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/187.png');
+background-size:contain;
+}
+.tabicon188{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/188.png');
+background-size:contain;
+}
+.tabicon189{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/189.png');
+background-size:contain;
+}
+.tabicon190{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/190.png');
+background-size:contain;
+}
+.tabicon191{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/191.png');
+background-size:contain;
+}
+.tabicon192{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 80%;
+padding-top: 45px;background-image: url('../img/food_icons/192.png');
+background-size:contain;
+}
+.tabicon193{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/193.png');
+background-size:contain;
+}
+.tabicon194{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/194.png');
+background-size:contain;
+}
+.tabicon195{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/195.png');
+background-size:contain;
+}
+.tabicon196{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/196.png');
+background-size:contain;
+}
+.tabicon197{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/197.png');
+background-size:contain;
+}
+.tabicon198{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/198.png');
+background-size:contain;
+}
+.tabicon199{
+background-repeat: no-repeat;
+background-position: 50%;
+height: 100%;
+padding-top: 45px;background-image: url('../img/food_icons/199.png');
+background-size:contain;
+}
+
+.wrapping-list .item-content, .wrapping-list .item {
+    overflow: initial;
+    white-space: initial;
+}
+
+.border_span{
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+
+.border_span span{
+  position: relative;
+  display: inline-block;
+  width: 22%;
+  height: 0;
+  padding: 10% 0;
+  border-radius: 50%;
+  background: #27ae60;
+  color: white;
+  text-align: center;
+  line-height: 0;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.border_span h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 0;
+}
+
+.menu-item-size{
+    padding-bottom: 1px;
+
+    color: #22313F;
+    font-size: 17px;
+}
+
+.menu_image{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.ingredients{
+    padding: 0;
+    margin: 0;
+    color: #22313F;
+}
+
+.menu-item-size.sep{
+    /*background-color: #27ae60;*/
+    border: 2px solid #22313F;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 0;
+}
+
+.order{
+    padding-top: 2%;
+}
+
+
+
+.active_order_button_hidden{
+    visibility: hidden;
+}
+
+.button_hidden{
+    visibility: hidden;
+}
+
+
+.menu_item_details_container{
+    height: 150px;
+    background-color: rgba(236, 240, 241, 0.8);
+    padding-bottom : 17%;
+    width:100%;
+    min-height:100%
+}
+
+.menu_item_heading{
+    font-size: 24px;
+    color: #22313F;
+    text-transform: uppercase;
+    letter-spacing: 0.05em
+}
+
+.order_card_container {
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.order_card_filter{
+    background-color: rgba(44, 62, 80, 0.7);
+    padding: 16px;
+    font-size: 100px;
+    color: black;
+}
+
+.order_card_filter .card_fonts{
+    font-size: 17px;
+    font-weight: 600;
+    color: #ecf0f1;
+}
+
+.order_card_filter .card_font_main{
+    font-size: 30px;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 600;
+    color: #ecf0f1;
+}
+
+.order_modal{
+    background-color: white;
+}
+
+.time_header{
+    padding-top: 11%;
+    color: #22313F;
+}
+
+.menu_item{
+    padding-bottom: 15px;
+    height : 115px;
+    border:none;
+    box-shadow: none;
+}
+
+.order_menu_item{
+    min-height: 118px;
+    height: 118px;
+    border:none;
+    box-shadow: none;
+}
+
+.menu_item_content{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.item-thumbnail-left > img:first-child{
+    height: 100px;
+    width: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 6px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.item_counter{
+    text-align: right;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+.menu_item_name_row{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.menu_item_name_col{
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.menu_dish_name{
+    padding: 0;
+}
+
+.menu_item_ingredients_row{
+    position: relative;
+}
+
+.menu_item_ingredients_col{
+    margin-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.item .menu_item_name_header{
+    text-transform: uppercase;
+    position: absolute;
+    opacity: 0.87;
+    font-size: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.menu_card{
+    margin: 12px;
+    padding: 1px 0 1px 0;
+    margin-top: 10px;
+}
+
+.order_menu_card{
+
+    margin: 12px;
+    padding: 1px 0 1px 0;
+    margin-top: 10px;
+}
+
+
+.list:last-child.card {
+    margin-bottom: 15px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+.item .item_size_header{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.item .item_price_header{
+    color : green;
+}
+
+.size_row{
+    margin-top: 5px;
+    padding: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+.item_size{
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0;
+}
+
+.sub_item{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-align: center;
+}
+
+.active_order{
+    background-color: rgba(149, 165, 166,0.2);
+    padding: 0;
+    margin: 0;
+}
+
+.orderDiv{
+    padding: 10px 0 10px 0;
+}
+
+
+:last-child.item_size{
+    border-right: none;
+}
+
+.circle{
+    width:30px;
+    height:30px;
+    border-radius:100px;
+    font-size:14px;
+    color: white;
+    line-height:30px;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align:center;
+    background:#e74c3c;
+}
+
+
+.order_details_row{
+    margin-top: 8px;
+}
+
+.item .order_details_row{;
+    padding-top: 8px;
+}
+
+.order_item_detail{
+}
+
+.order_price{
+    color: green;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.order_times{
+    text-align: center;
+    color: rgba(127, 140, 141,1);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.order_quantity{
+    text-align: center;
+    background-color: rgba(127, 140, 141,0.3);
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.order_delete{
+    text-align: right;
+    color: rgba(127, 140, 141,1);
+    font-size: 21px;
+}
+
+.hide-it {
+    opacity:0;
+    transition:opacity 150ms linear;
+}
+
+.order_sent_message_card{
+    width: 269px;
+    text-align : center;
+    display: inline-block;
+}
+
+.order_sent_message {
+    background-color: #40d47e;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.no_order_header{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(127, 140, 141,1);
+}
+
+.order_item_size{
+    padding-top: 45px;
+    min-height: 65px;
+}
+
+#map{
+    width: 100vw;
+    height: 61vh;
+    flex : 1;
+}
+
+.contact_infos{
+    flex : 2;
+}
+
+.contact_item{
+    height: 10vh;
+    padding: 5px;
+}
+
+.angular-google-map-container {
+  height: 100%;
+}
+
+
+.order_last_step_item{
+    padding: 0;
+    padding-bottom: 30px;
+    border: none;
+}
+
+.order_last_step_list> .order_last_step_item:first-child{
+        margin-top: 20px;
+}
+
+
+.order_finalization_container{
+    padding: 30px 8px;
+}
+
+.item .button_validate_time {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #387ef5;
+}
+
+.order_last_step_button{
+}
+
+.item .order_validate_header_left {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item .order_validate_header_right {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+.validate_section{
+    text-align: center;
+}
+
+.validate_button {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.email_info {
+    color: rgba(127, 140, 141,1);
+    font-size: 12px;
+}
+
+.panel_menu_item{
+    border: none;
+    transition : opacity 0.01s;
+    text-align: left;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.logo_img {
+    margin-left: 112px;
+    margin-right: 112px;
+    margin-top: 30px;
+    margin-bottom: 10%;
+    width: 80px;
+    height: 80px;
+}
+
+.contact_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_adress{
+    text-align: right;
+}
+
+.contact_info_padding{
+    padding-right: 40px;
+    padding-top: 7px;
+}
+
+.item .adress_compl{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+
+
+.contact_info_container{
+    padding: 14px;
+}
+
+
+.order_content{
+    padding-bottom: 80px;
+}

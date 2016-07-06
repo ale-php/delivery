@@ -1,0 +1,11 @@
+{
+  "name": "HelloIonic",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.1.0"
+  },
+  "dependencies": {
+    "angular-issue-9128-patch": "https://gist.github.com/beckyconning/9fe5450046cabfa5d104.git",
+    "ionic-timepicker": "~0.3.0"
+  }
+}

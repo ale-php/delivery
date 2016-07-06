@@ -1,0 +1,34 @@
+<ion-view view-title="{{'TAKEOUT_TITLE' | translate}}">
+  <ion-content class="padding">
+        <ul class="list order_last_step_list">
+            <li class="item order_last_step_item">
+                <ionic-timepicker input-obj="timePickerObject">
+                    <a class="item item-icon-left item-icon-right" href="#">
+                        <div class="icon"><p class="order_validate_header_left">{{'SERVICE_TIME_LABEL' | translate}}</p></div>
+                        <div class="icon"><p class="order_validate_header_right">{{hours | minutesToDateTime | date:'mm'}} : {{minutes | minutesToDateTime | date:'mm'}}</p><p class="button_validate_time">{{'SERVICE_CHANGE_TIME_BUTTON' | translate}}</p>
+                            <standard-time-meridian etime='timePickerObject.inputEpochTime'></standard-time-meridian>
+                        </div>
+                    </a>
+                </ionic-timepicker>
+            </li>
+            <li class="item order_last_step_item">
+                <a class="item item-icon-left item-icon-right" href="#">
+                    <i class="icon"><p class="order_validate_header_left">{{'SERVICE_TOTAL_LABEL' | translate}}</p></i>
+                    <i class="icon"><p ng-show="dollarCurrency" class="order_validate_header_right">{{totalPrice| currency}}</p>
+                    <i class="icon"><p ng-hide="dollarCurrency" class="order_validate_header_right">{{totalPrice| currency:"&euro;"}}</p>
+                    </i>
+                </a>
+            </li>
+        </ul>
+        <div class="validate_section">
+            <button ng-click="sendOrder()" data-ng-class="{'hidden' : emailSent}" class="button validate_button button-outline button-positive">
+                {{'SERVICE_VALIDATE_BUTTON' | translate}}
+            </button>
+            <div data-ng-class="{'hidden' : (!emailSent)}" class="card order_sent_message_card">
+                <div class="item item-text-wrap order_sent_message">
+                    {{'SERVICE_ORDER_SENT_MESSAGE' | translate}}
+                </div>
+            </div>
+        </div>
+  </ion-content>
+</ion-view>

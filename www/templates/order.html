@@ -1,0 +1,38 @@
+<ion-view view-title="{{'ORDER_HEADER' | translate}}">
+  <ion-content>
+    <!-- {{order[1]}},     name
+        {{order[2]}},     size
+        {{order[3]}},     quantity
+        {{order[4]}},     price -->
+
+    <ul class="list order_content">
+        <div ng-repeat="order in orders" ng-class="{'hide-it' : item.hideIt}">
+            <div class="list item card order_menu_card">
+                <div class="item item-thumbnail-left order_menu_item" href="#">
+                    <img class="menu_image" ng-style="{'background-image':'url({{order[5]}})'}">
+                    <div class="menu_item_content">
+                        <div class="menu_item_name_row row">
+                            <div class="col menu_item_name_row item-text-wrap">
+                              <h2 class="menu_item_name_header">{{order[1]}}</h2>
+                              <p class="order_item_size">{{order[2]}}</p>
+                            </div>
+                        </div>
+                        <div class="order_details_row row">
+                            <div ng-show="dollarCurrency" class="col order_item_detail order_price">{{order[4] | currency}}</div>
+                            <div ng-hide="dollarCurrency" class="col order_item_detail order_price">{{order[4] | currency:"&euro;"}}</div>
+                            <div class="col col-20 order_item_detail order_times">X</div>
+                            <div class="col col-20 order_item_detail order_quantity">{{order[3]}}</div>
+                            <div ng-click="item.hideIt = true;onItemDelete({{order}})" class="col col-33 order_item_detail order_delete ion-trash-b"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ul>
+  </ion-content>
+    <div class="bar bar-footer bar-stable">
+    <div ng-show="dollarCurrency" class="title">{{'ORDER_TOTAL_LABEL' | translate}} : {{totalPrice | currency}}</div>
+    <div ng-hide="dollarCurrency" class="title">{{'ORDER_TOTAL_LABEL' | translate}} : {{totalPrice | currency:"&euro;"}}</div>
+    <button ng-click="openModal()" data-ng-class="{'active_order_button_hidden' : toggleOrderButton()}" class="button button-outline button-dark">{{'ORDER_ORDER_BUTTON' | translate}}</button>
+    </div>
+</ion-view>

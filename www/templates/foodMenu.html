@@ -1,0 +1,248 @@
+<ion-view view-title="{{'MENU_HEADER' | translate}}">
+
+    <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear" ui-sref="app.menu.order">{{'MENU_ORDER_BUTTON'|translate}}</button>
+    </ion-nav-buttons>
+    <ion-tabs class="tabs-bar-stable tabs-icon-only">
+            <ion-tab class="{{tabappearAppetizers()}}" icon-on="tabicon{{menus.appetizers.icon}}" icon-off="tabicon{{menus.appetizers.icon}}">
+                <ion-nav-view padding="true">
+                    <ion-content>
+                        <ul class="list">
+                            <div class="" ng-repeat="dish in menus.appetizers.dishes">
+                                <div class="list card menu_card item">
+                                    <div class="item item-thumbnail-left menu_item" href="#">
+                                        <img class="menu_image" ng-style="{'background-image':'url({{dish.imageUrl}})'}">
+                                        <div class="menu_item_content">
+                                            <div class="menu_item_name_row row">
+                                                <div class="col menu_item_name_row item-text-wrap">
+                                                  <h2 class="menu_item_name_header">{{dish.name}}</h2>
+                                                </div>
+                                            </div>
+                                            <div class="menu_item_ingredients_row row">
+                                                <div class="col col-75 item-text-wrap menu_item_ingredients_col">
+                                                    <p>{{dish.ingredients}}</p>
+                                                </div>
+                                                <div class="col col-center item_counter">
+                                                    <div data-ng-class="{'hidden' : !toggleOrderVisibility(0,$index)}" class="circle">
+                                                        {{selectedOrders[0][$index][0][1]
+                                                        + selectedOrders[0][$index][1][1]
+                                                        + selectedOrders[0][$index][2][1]}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item sub_item">
+                                        <div class="row size_row">
+                                                <a class="col item_size" ng-repeat="size in dish.sizes">
+                                                    <div data-ng-click="newOrder(0,$parent.$index,$index,dish.name,size.quantity,size.price,dish.imageUrl)">
+                                                        <div class="orderDiv" data-ng-class="{'active_order' : toggleOrder(0,$parent.$index,$index)}">
+                                                            <h6 class="item_size_header">{{size.quantity}}</h6>
+                                                            <h3 ng-show="dollarCurrency" class="item_price_header">{{size.price | currency}}</h3>
+                                                            <h3 ng-hide="dollarCurrency" class="item_price_header ng-hide">{{size.price | currency:"&euro;"}}</h3>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </ion-content>
+                </ion-nav-view>
+            </ion-tab>
+
+            <ion-tab class="{{tabappearMenus()}}" icon-on="tabicon{{menus.menus.icon}}" icon-off="tabicon{{menus.menus.icon}}">
+                <ion-nav-view padding="true">
+                    <ion-content>
+                        <ul class="list">
+                            <div class="" ng-repeat="dish in menus.menus.dishes">
+                                <div class="list card menu_card">
+                                    <div class="item item-thumbnail-left menu_item" href="#">
+                                        <img class="menu_image" ng-style="{'background-image':'url({{dish.imageUrl}})'}">
+                                        <div class="menu_item_content">
+                                            <div class="menu_item_name_row row">
+                                                <div class="col menu_item_name_row item-text-wrap">
+                                                  <h2 class="menu_item_name_header">{{dish.name}}</h2>
+                                                </div>
+                                            </div>
+                                            <div class="menu_item_ingredients_row row">
+                                                <div class="col col-75 item-text-wrap menu_item_ingredients_col">
+                                                    <p>{{dish.ingredients}}</p>
+                                                </div>
+                                                <div class="col col-center item_counter">
+                                                    <div data-ng-class="{'hidden' : !toggleOrderVisibility(1,$index)}" class="circle">
+                                                        {{selectedOrders[1][$index][0][1]
+                                                        + selectedOrders[1][$index][1][1]
+                                                        + selectedOrders[1][$index][2][1]}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item sub_item">
+                                        <div class="row size_row">
+                                                <a class="col item_size" ng-repeat="size in dish.sizes">
+                                                    <div data-ng-click="newOrder(1,$parent.$index,$index,dish.name,size.quantity,size.price,dish.imageUrl)">
+                                                        <div class="orderDiv" data-ng-class="{'active_order' : toggleOrder(1,$parent.$index,$index)}">
+                                                            <h6 class="item_size_header">{{size.quantity}}</h6>
+                                                            <h3 ng-show="dollarCurrency" class="item_price_header">{{size.price | currency}}</h3>
+                                                            <h3 ng-hide="dollarCurrency" class="item_price_header ng-hide">{{size.price | currency:"&euro;"}}</h3>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </ion-content>
+                </ion-nav-view>
+            </ion-tab>
+
+            <ion-tab class="{{tabappearDrinks()}}" icon-on="tabicon{{menus.drinks.icon}}" icon-off="tabicon{{menus.drinks.icon}}">
+                <ion-nav-view padding="true">
+                    <ion-content>
+                        <ul class="list">
+                            <div class="" ng-repeat="dish in menus.drinks.dishes">
+                                <div class="list card menu_card">
+                                    <div class="item item-thumbnail-left menu_item" href="#">
+                                        <img class="menu_image" ng-style="{'background-image':'url({{dish.imageUrl}})'}">
+                                        <div class="menu_item_content">
+                                            <div class="menu_item_name_row row">
+                                                <div class="col menu_item_name_row item-text-wrap">
+                                                  <h2 class="menu_item_name_header">{{dish.name}}</h2>
+                                                </div>
+                                            </div>
+                                            <div class="menu_item_ingredients_row row">
+                                                <div class="col col-75 item-text-wrap menu_item_ingredients_col">
+                                                    <p>{{dish.ingredients}}</p>
+                                                </div>
+                                                <div class="col col-center item_counter">
+                                                    <div data-ng-class="{'hidden' : !toggleOrderVisibility(2,$index)}" class="circle">
+                                                        {{selectedOrders[2][$index][0][1]
+                                                        + selectedOrders[2][$index][1][1]
+                                                        + selectedOrders[2][$index][2][1]}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item sub_item">
+                                        <div class="row size_row">
+                                                <a class="col item_size" ng-repeat="size in dish.sizes">
+                                                    <div data-ng-click="newOrder(2,$parent.$index,$index,dish.name,size.quantity,size.price,dish.imageUrl)">
+                                                        <div class="orderDiv" data-ng-class="{'active_order' : toggleOrder(2,$parent.$index,$index)}">
+                                                            <h6 class="item_size_header">{{size.quantity}}</h6>
+                                                            <h3 ng-show="dollarCurrency" class="item_price_header">{{size.price | currency}}</h3>
+                                                            <h3 ng-hide="dollarCurrency" class="item_price_header ng-hide">{{size.price | currency:"&euro;"}}</h3>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </ion-content>
+                </ion-nav-view>
+            </ion-tab>
+
+            <ion-tab class="{{tabappearDesserts()}}" icon-on="tabicon{{menus.desserts.icon}}" icon-off="tabicon{{menus.desserts.icon}}">
+                <ion-nav-view padding="true">
+                    <ion-content>
+                        <ul class="list">
+                            <div class="" ng-repeat="dish in menus.desserts.dishes">
+                                <div class="list card menu_card">
+                                    <div class="item item-thumbnail-left menu_item" href="#">
+                                        <img class="menu_image" ng-style="{'background-image':'url({{dish.imageUrl}})'}">
+                                        <div class="menu_item_content">
+                                            <div class="menu_item_name_row row">
+                                                <div class="col menu_item_name_row item-text-wrap">
+                                                  <h2 class="menu_item_name_header">{{dish.name}}</h2>
+                                                </div>
+                                            </div>
+                                            <div class="menu_item_ingredients_row row">
+                                                <div class="col col-75 item-text-wrap menu_item_ingredients_col">
+                                                    <p>{{dish.ingredients}}</p>
+                                                </div>
+                                                <div class="col col-center item_counter">
+                                                    <div data-ng-class="{'hidden' : !toggleOrderVisibility(3,$index)}" class="circle">
+                                                        {{selectedOrders[3][$index][0][1]
+                                                        + selectedOrders[3][$index][1][1]
+                                                        + selectedOrders[3][$index][2][1]}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item sub_item">
+                                        <div class="row size_row">
+                                                <a class="col item_size" ng-repeat="size in dish.sizes">
+                                                    <div data-ng-click="newOrder(3,$parent.$index,$index,dish.name,size.quantity,size.price,dish.imageUrl)">
+                                                        <div class="orderDiv" data-ng-class="{'active_order' : toggleOrder(3,$parent.$index,$index)}">
+                                                            <h6 class="item_size_header">{{size.quantity}}</h6>
+                                                            <h3 ng-show="dollarCurrency" class="item_price_header">{{size.price | currency}}</h3>
+                                                            <h3 ng-hide="dollarCurrency" class="item_price_header ng-hide">{{size.price | currency:"&euro;"}}</h3>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </ion-content>
+                </ion-nav-view>
+            </ion-tab>
+
+            <ion-tab class="{{tabappearSandwiches()}}" icon-on="tabicon{{menus.sandwiches.icon}}" icon-off="tabicon{{menus.sandwiches.icon}}">
+                <ion-nav-view padding="true">
+                    <ion-content>
+                        <ul class="list">
+                            <div class="" ng-repeat="dish in menus.sandwiches.dishes">
+                                <div class="list card menu_card">
+                                    <div class="item item-thumbnail-left menu_item" href="#">
+                                        <img class="menu_image" ng-style="{'background-image':'url({{dish.imageUrl}})'}">
+                                        <div class="menu_item_content">
+                                            <div class="menu_item_name_row row">
+                                                <div class="col menu_item_name_row item-text-wrap">
+                                                  <h2 class="menu_item_name_header">{{dish.name}}</h2>
+                                                </div>
+                                            </div>
+                                            <div class="menu_item_ingredients_row row">
+                                                <div class="col col-75 item-text-wrap menu_item_ingredients_col">
+                                                    <p>{{dish.ingredients}}</p>
+                                                </div>
+                                                <div class="col col-center item_counter">
+                                                    <div data-ng-class="{'hidden' : !toggleOrderVisibility(4,$index)}" class="circle">
+                                                        {{selectedOrders[4][$index][0][1]
+                                                        + selectedOrders[4][$index][1][1]
+                                                        + selectedOrders[4][$index][2][1]}}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item sub_item">
+                                        <div class="row size_row">
+                                                <a class="col item_size" ng-repeat="size in dish.sizes">
+                                                    <div data-ng-click="newOrder(4,$parent.$index,$index,dish.name,size.quantity,size.price,dish.imageUrl)">
+                                                        <div class="orderDiv" data-ng-class="{'active_order' : toggleOrder(4,$parent.$index,$index)}">
+                                                            <h6 class="item_size_header">{{size.quantity}}</h6>
+                                                            <h3 ng-show="dollarCurrency" class="item_price_header">{{size.price | currency}}</h3>
+                                                            <h3 ng-hide="dollarCurrency" class="item_price_header ng-hide">{{size.price | currency:"&euro;"}}</h3>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </ion-content>
+                </ion-nav-view>
+            </ion-tab>
+
+    </ion-tabs>
+</ion-view>

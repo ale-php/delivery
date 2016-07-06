@@ -1,0 +1,642 @@
+{"menus" :
+  {
+    "appetizers": {
+      "use" : "true",
+      "name" : "0000",
+      "icon" : "192",
+      "dishes": {
+        "one" : {
+          "name" : "tomatoes and mozzarella salad",
+          "imageUrl" : "http://snap-photos.s3.amazonaws.com/img-thumbs/960w/YFGG1PW3V5.jpg",
+          "ingredients" : "rice, tomatoes, cream, curry",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "two" : {
+          "name" : "Bruno",
+          "imageUrl" : "http://snap-photos.s3.amazonaws.com/img-thumbs/960w/2TTXSF7XZV.jpg",
+          "ingredients" : "rice, tomatoes, cream, curry",
+          "sizes" : {
+            "" : {
+                "price" : "10",
+                "quantity" : ""
+              }
+          }
+        },
+        "three" : {
+          "name" : "fresh salad",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/Z0133GNPXT.jpg",
+          "ingredients" : "rice, tomatoes, cream, curry",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "medium"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "big"
+              }
+          }
+        },
+        "four" : {
+          "name" : "cherry tomato balls",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/NC1DGJG544.jpg",
+          "ingredients" : "rice, tomatoes, cream, curry",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "five" : {
+          "name" : "cheese bits",
+          "imageUrl" : "http://se.ai.fgu.edu.tw/~s1011227/images/eggplant-appetizer.jpg",
+          "ingredients" : "rice, tomatoes, cream, curry",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        }
+      }
+    },
+    "menus": {
+      "use" : "true",
+      "name" : "menus",
+      "icon" : "142",
+      "dishes": {
+        "one" : {
+          "name" : "Homemade pizza",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/L9HTZS63HO.jpg",
+          "ingredients" : "krust, tomatoes, chicken, olives",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "samll"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "two" : {
+          "name" : "Tender beef",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/O2I8IVLWVA.jpg",
+          "ingredients" : "beef, carrotes, pepper sauce, fines-herbes",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "three" : {
+          "name" : "Barbecue steak",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/WYGI6J1B0S.jpg",
+          "ingredients" : "beef, bbq sauce, potatoes, vegetables",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "four": {
+          "name" : "Salmon and lemon",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/AV3IUF5EDB.jpg",
+          "ingredients" : "salmon, lemon sauce, vegetables, pepper",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "five" : {
+          "name" : "Roast Beef",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/2698AF98D3.jpg",
+          "ingredients" : "beef, bbq sauce, potatoes, vegetables",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        }
+      }
+    },
+    "drinks": {
+      "use" : "true",
+      "name" : "drinks",
+      "icon" : "198",
+      "dishes": {
+        "one" : {
+          "name" : "Milk shake",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/HWFUPZEHMO.jpg",
+          "ingredients" : "fruit, ice cream, milk",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "two" : {
+          "name" : "Green tea",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/EDFE7A3F40.jpg",
+          "ingredients" : "Chinese green tea, sugar",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "three" : {
+          "name" : "Fruit juice",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/FED91D9C64.jpg",
+          "ingredients" : "mixed fruits, water, ice",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "four" : {
+          "name" : "Mojito",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/4178415E1A.jpg",
+          "ingredients" : "lemon, rhum, brown sugar, ice",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "five" : {
+          "name" : "Coffee",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/TO4DBIESND.jpg",
+          "ingredients" : "100% arabica fresh coffee",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        }
+      }
+    },
+    "desserts": {
+      "use" : "true",
+      "name" : "desserts",
+      "icon" : "146",
+      "dishes": {
+        "one" : {
+          "name" : "Strawberry cake",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/4178415E1A.jpg",
+          "ingredients" : "sugar, fruits, chocolate",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "two" : {
+          "name" : "Tiramisu",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/XASGQ1HNR4.jpg",
+          "ingredients" : "coffe, sugar, chocolate, almonds",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "three" : {
+          "name" : "Fruit ice cream",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/ZXFJ92W7GS.jpg",
+          "ingredients" : "Fine fruit selection, brown sugar",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "four" : {
+          "name" : "Homemade cookies",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PAUNN1ZOQL.jpg",
+          "ingredients" : "Butter, chocolate, sugar, milk",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "five" : {
+          "name" : "Macarons",
+          "imageUrl" : "https://snap-photos.s3.amazonaws.com/img-thumbs/960w/D737F106ED.jpg",
+          "ingredients" : "Butter, fruits, sugar, milk, almonds",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        }
+      }
+    },
+    "sandwiches": {
+      "use" : "false",
+      "name" : "sandwiches",
+      "icon" : "173",
+      "dishes": {
+        "one" : {
+          "name" : "sandwiche one",
+          "imageUrl" : "http://img0.gtsstatic.com/wallpapers/02c272e824b6d1c60c2f1b0af458692e_large.jpeg",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "two" : {
+          "name" : "sandwiche two",
+          "imageUrl" : "http://img0.gtsstatic.com/wallpapers/02c272e824b6d1c60c2f1b0af458692e_large.jpeg",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "three" : {
+          "name" : "sandwiche three",
+          "imageUrl" : "http://img0.gtsstatic.com/wallpapers/02c272e824b6d1c60c2f1b0af458692e_large.jpeg",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "four" : {
+          "name" : "sandwiche four",
+          "imageUrl" : "http://img0.gtsstatic.com/wallpapers/02c272e824b6d1c60c2f1b0af458692e_large.jpeg",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        },
+        "five" : {
+          "name" : "sandwiche five",
+          "imageUrl" : "http://img0.gtsstatic.com/wallpapers/02c272e824b6d1c60c2f1b0af458692e_large.jpeg",
+          "sizes" : {
+            "small" : {
+                "price" : "10",
+                "quantity" : "small"
+              },
+            "medium" : {
+                "price" : "15",
+                "quantity" : "medium"
+              },
+            "big" : {
+                "price" : "20",
+                "quantity" : "big"
+            }
+          }
+        }
+      }
+    }
+  },
+  "configuration" : {
+    "options" : {
+      "takeout" : {
+        "name" : "OPTION_TEAKEOUT_BUTTON",
+        "stateName" : "takeout",
+        "url" : "templates/takeout.html",
+        "icon" : "ion-bag"
+      },
+      "eatin" : {
+        "name" : "OPTION_EATIN_BUTTON",
+        "stateName" : "eatin",
+        "url" : "templates/eatin.html",
+        "icon" : "ion-android-restaurant"
+      },
+      "delivery" : {
+        "name" : "OPTION_DELIVERY_BUTTON",
+        "stateName" : "delivery",
+        "url" : "templates/delivery.html",
+        "icon" : "ion-home"
+      }
+    }
+  },
+  "informations" : {
+      "currency" : "real",
+      "delivery_cost" : "5",
+      "contact_informations" : {
+        "adress" : {
+          "first_part" : "RUA CORREIA NETO, 473",
+          "second_part" : "Centro, Poços de Caldas"
+        },
+        "geolocalisation" : {
+          "latitude" : "-21.790803",
+          "longitude" : "-46.562964"
+        },
+        "phone" : "035 37147202",
+        "email" : "atendimento@pizzanaroca.com.br"
+      },
+      "opening_hours" :{
+        "1" : {
+          "open" : "true",
+          "first_part" : {
+            "time" : "8-14",
+            "max_eatin_time" : "13",
+            "max_takeout_time" : "14",
+            "max_delivery_time" : "13"
+            },
+          "second_part" : {
+            "time" : "17-2",
+            "max_eatin_time" : "22",
+            "max_takeout_time" : "22",
+            "max_delivery_time" : "2"
+            }
+        },
+        "2" : {
+          "open" : "true",
+          "first_part" : {
+            "time" : "8-14",
+            "max_eatin_time" : "13",
+            "max_takeout_time" : "14",
+            "max_delivery_time" : "13"
+            },
+          "second_part" : {
+            "time" : "17-2",
+            "max_eatin_time" : "1",
+            "max_takeout_time" : "2",
+            "max_delivery_time" : "2"
+            }
+        },
+        "3" : {
+          "open" : "true",
+          "first_part" : {
+            "time" : "8-14",
+            "max_eatin_time" : "13",
+            "max_takeout_time" : "14",
+            "max_delivery_time" : "13"
+            },
+          "second_part" : {
+            "time" : "17-2",
+            "max_eatin_time" : "1",
+            "max_takeout_time" : "2",
+            "max_delivery_time" : "2"
+            }
+        },
+        "4" : {
+          "open" : "true",
+          "first_part" : {
+            "time" : "8-14",
+            "max_eatin_time" : "13",
+            "max_takeout_time" : "14",
+            "max_delivery_time" : "13"
+            },
+          "second_part" : {
+            "time" : "14-2",
+            "max_eatin_time" : "1",
+            "max_takeout_time" : "2",
+            "max_delivery_time" : "2"
+            }
+        },
+        "5" : {
+          "open" : "true",
+          "first_part" : {
+            "time" : "8-14",
+            "max_eatin_time" : "13",
+            "max_takeout_time" : "14",
+            "max_delivery_time" : "13"
+            },
+          "second_part" : {
+            "time" : "17-2",
+            "max_eatin_time" : "22",
+            "max_takeout_time" : "22",
+            "max_delivery_time" : "22"
+            }
+        },
+        "6" : {
+          "open" : "true",
+          "first_part" : {
+            "time" : "8-15",
+            "max_eatin_time" : "15",
+            "max_takeout_time" : "15",
+            "max_delivery_time" : "15"
+            },
+          "second_part" : {
+            "time" : "15-3",
+            "max_eatin_time" : "1",
+            "max_takeout_time" : "2",
+            "max_delivery_time" : "2"
+            }
+        },
+        "7" : {
+          "open" : "true",
+          "first_part" : {
+            "time" : "8-12",
+            "max_eatin_time" : "12",
+            "max_takeout_time" : "12",
+            "max_delivery_time" : "12"
+            },
+          "second_part" : {
+            "time" : "13-22",
+            "max_eatin_time" : "22",
+            "max_takeout_time" : "22",
+            "max_delivery_time" : "22"
+            }
+        }
+      }
+    }
+}

@@ -1,0 +1,28 @@
+<ion-view view-title="{{title}}">
+  <ion-content class="contact_container" ng-init="initialize()">
+    <div id="map" data-tap-disabled="true"></div>
+    <ul class="list contact_infos">
+        <a class="item item-icon-left item-text-wrap contact_item" href="#">
+            <i class="icon"><p>{{'CONTACT_ADDRESS_LABEL' | translate}}</p></i>
+            <div class="contact_info_container">
+                <p class="contact_adress">{{adress_p1}}</p>
+                <p class="contact_adress adress_compl">{{adress_p2}}</p>
+            </div>
+        </a>
+        <a  ng-click="phoneCall()" class="item item-icon-left item-icon-right item-text-wrap contact_item" href="#">
+            <i class="icon"><p>{{'CONTACT_PHONE_NUMBER_LABEL' | translate}}</p></i>
+            <div class="contact_info_container">
+                <p class="contact_adress contact_info_padding">{{phone}}</p>
+            </div>
+            <i class="icon ion-ios-telephone-outline"></i>
+        </a>
+        <a ng-click="sendEmail()" class="item item-icon-left item-icon-right item-text-wrap contact_item" href="#">
+            <i class="icon"><p>{{'CONTACT_EMAIL_LABEL' | translate}}</p></i>
+            <div class="contact_info_container">
+                <p class="contact_adress  contact_info_padding">{{email}}</p>
+            </div>
+            <i class="icon ion-email"></i>
+        </a>
+    </ul>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,16 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">{{'ORDER_HEADER'|translate}}</h1>
+  </ion-header-bar>
+  <ion-content class="padding order_modal">
+    <div class="order_popup">
+      <h1 class="no_order_header">{{noOrderMessage | translate}}</h1>
+      <button ng-click="redirectTo(option.stateName)" ng-repeat="option in configOptions" class="button icon-left {{option.icon}} button-stable" style="width:100%; margin-top:15px">
+        {{option.name | translate}}
+      </button>
+      <button ng-click="closeModal()" class="button icon-left ion-close-round button-assertive" style="width:100%; margin-top:15px">
+        {{'OPTION_CANCEL_BUTTON' | translate}}
+      </button>
+    </div>
+  </ion-content>
+</ion-modal-view>
